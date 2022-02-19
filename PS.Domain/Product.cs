@@ -24,6 +24,7 @@ namespace PS.Domain
       
         [DataType(DataType.Date),Display(Name="Production Date")]
         public DateTime DateCreated { get; set; }
+        [ForeignKey("Category")]
         public int? CategoryId { get; set; }
         public IList<Provider> Providers { get; set; }
         public Category Category { get; set; }//propriété de navigation 

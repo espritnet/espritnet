@@ -19,6 +19,14 @@ namespace PS.Data
             //test commit
             optionsBuilder.UseSqlServer(@"data source=(localdb)\mssqllocaldb;initial catalog= PsProductDb; integrated security= true");
         }
+        /* protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>().Property(p => p.Name).HasMaxLength(25)
+                .IsRequired().HasDefaultValue("name").HasColumnName("nomProduit");
+            modelBuilder.Entity<Product>().HasKey(p=>p.ProductId);
+            modelBuilder.Entity<Product>().Ignore(p => p.DateCreated);
+            base.OnModelCreating(modelBuilder);
+        }*/
 
 
     }
