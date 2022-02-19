@@ -9,19 +9,22 @@ namespace PS.Domain
     public class Product: Concept
     {
         public int ProductId { get; set; }
-        [MaxLength(20)]
+        [MaxLength(50)]
         [MinLength(10)]
-        [StringLength(50, ErrorMessage ="Longueur >50")]
+        [StringLength(25, ErrorMessage ="Longueur >25")]
         [Required(ErrorMessage ="Name required")]
         public string Name { get; set; }
         [DataType(DataType.MultilineText)]
         public string Description { get; set; }
+
+        [DataType(DataType.Currency)]
         public float Price { get; set; }
         [Range(0,int.MaxValue)]
         public int Quantity { get; set; }
-        [NotMapped]
-        [DataType(DataType.Date)]
+      
+        [DataType(DataType.Date),Display(Name="Production Date")]
         public DateTime DateCreated { get; set; }
+        public int CategoryId { get; set; }
         public IList<Provider> Providers { get; set; }
         public Category Category { get; set; }//propriété de navigation 
         //CategoryId

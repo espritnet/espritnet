@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace PS.Domain
@@ -16,6 +17,7 @@ namespace PS.Domain
         }
         public string UserName { get; set; }
         string password;
+        [Required,MinLength(8),DataType(DataType.Password)]
         public string Password {
             set {
                 if (value.Length < 5 || value.Length > 20)
@@ -28,6 +30,7 @@ namespace PS.Domain
             get { return password; }
         }
         string confirmPassword;
+        [Required,DataType(DataType.Password),NotMapped,Compare("Password")]
         public string ConfirmPassword {
             get { return confirmPassword; }
             set {
@@ -38,7 +41,7 @@ namespace PS.Domain
             }
         }
         //[DataType(DataType.EmailAddress)]
-        [EmailAddress]
+        [EmailAddress,Required]
         public string Email { get; set; }
         public bool IsApproved { get; set; }
         [Display(Name ="Date")]
