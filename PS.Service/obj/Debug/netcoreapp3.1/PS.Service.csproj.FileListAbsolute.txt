@@ -1,0 +1,13 @@
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\bin\Debug\netcoreapp3.1\PS.Service.deps.json
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\bin\Debug\netcoreapp3.1\PS.Service.dll
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\bin\Debug\netcoreapp3.1\PS.Service.pdb
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\bin\Debug\netcoreapp3.1\PS.Domain.dll
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\bin\Debug\netcoreapp3.1\PS.Domain.pdb
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.csproj.CopyComplete
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.dll
+C:\Users\HP\OneDrive\Bureau\Module.Net\ProductStore_3CINFOGL\PS.Service\obj\Debug\netcoreapp3.1\PS.Service.pdb
