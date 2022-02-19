@@ -16,6 +16,7 @@ namespace PS.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //test commit
             optionsBuilder.UseSqlServer(@"data source=(localdb)\mssqllocaldb;initial catalog= PsProductDb; integrated security= true");
         }
 
